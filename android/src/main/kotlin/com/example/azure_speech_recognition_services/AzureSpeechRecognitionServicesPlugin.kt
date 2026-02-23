@@ -1,4 +1,4 @@
-package com.arashz4.azure_speech_recognition_flutter
+package com.example.azure_speech_recognition_services
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall
@@ -16,7 +16,7 @@ import android.util.Log
 import com.microsoft.cognitiveservices.speech.*
 
 /** AzureSpeechRecognitionFlutterPlugin */
-class AzureSpeechRecognitionServicesPluginImpl : FlutterPlugin, MethodChannel.MethodCallHandler {
+class AzureSpeechRecognitionServicesPlugin : FlutterPlugin, MethodChannel.MethodCallHandler {
     private lateinit var azureChannel: MethodChannel
     private var handler = Handler(Looper.getMainLooper())
 
