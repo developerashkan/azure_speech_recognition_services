@@ -23,7 +23,7 @@ Add the package to your Flutter app:
 
 ```yaml
 dependencies:
-  azure_speech_recognition_services: ^0.0.2
+  azure_speech_recognition_services: ^0.0.3
 ```
 
 Then run:

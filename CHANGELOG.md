@@ -1,3 +1,9 @@
+## 0.0.3
+
+* Sync with Flutter 3.44.0 and Dart 3.12.0.
+* Update environment constraints and dependencies.
+* Fix unused import linter warnings.
+
 ## 0.0.2
 
 * fix a bug
